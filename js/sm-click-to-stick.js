@@ -8,7 +8,9 @@ jQuery(document).ready(function() {
 
 function sm_sticky_toggle(args, obj) {
 	jQuery.ajax({
-		url:"/wp-admin/admin-ajax.php",
+		//url:"/wp-admin/admin-ajax.php",  
+		//TEMP FIX UNTIL FULL DIR VAR IS AVAILABLE
+		url:"admin-ajax.php",
 		type:"POST",
 		data:"action=sm_sticky&"+args,
 		success:function(results) {
