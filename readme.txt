@@ -34,23 +34,30 @@ To install the plugin manually:
 
 == Changelog ==
 Version 1.0.2
+
 - Corrected issue where star click didn't work when blog was installed on subdirectory like domain.com/myblog/
+
 Version 1.0.1
+
 - First public version released, no changes yet.
 
 == Upgrade Notice ==
 Version 1.0.1
+
 Requires at least WordPress version 3.1.X
 
 == Frequently Asked Questions ==
 
 Q: How do I use the plugin?
+
 A: Visit the "posts" section from within /wp-admin/ and use the Sticky Clicky Stars to turn on and off the sticky attribute of the post. (see screenshot)
 
 Q: What is sticky and why should I care?
+
 A: If you found this plugin, you were likely searching for a better way to manage sticky posts. We assure you, this is a better way to manage sticky posts.
 
 Q: Where is the options panel?
+
 A: There is no options panel. The only changes you will see in the wp-admin is an additional column on the "posts" page that now has a Sticky Clicky Star.
 
 == Screenshots ==
