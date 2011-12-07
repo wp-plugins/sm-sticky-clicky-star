@@ -4,8 +4,8 @@ Contributors: Jeremy Smeltzer & Seth Carstens
 Donate link: http://sethmatics.com/extend/plugins/sm-sticky-clicky-star/
 Tags: sticky, post, page, plugin, ajax, admin
 Requires at least: 3.1
-Tested up to: 3.2.1
-Stable tag: 1.0.1
+Tested up to: 3.3
+Stable tag: 1.0.2
 
 Turn sticky (featured) posts on and off with 1 easy click! Control permissions with "User Role Editor" provided by http://sethmatics.com/.
 
@@ -33,6 +33,9 @@ To install the plugin manually:
 5. Use the Sticky Clicky Stars to turn on and off the sticky attribute of the post.
 
 == Changelog ==
+Version 1.0.2
+- Corrected issue where star click didn't work when blog was installed on subdirectory like domain.com/myblog/
+Version 1.0.1
 - First public version released, no changes yet.
 
 == Upgrade Notice ==
