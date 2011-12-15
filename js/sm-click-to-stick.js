@@ -1,5 +1,8 @@
 jQuery(document).ready(function() {
-	jQuery('#sticky-span').remove();	
+	// move sticky check box out of sticky span and hide it (must be present on page for sticky to stick when post saved)
+	jQuery('#sticky').appendTo('#post-visibility-select').css('display','none');	
+	// remove sticky span
+	jQuery('#sticky-span').remove();
 	jQuery('.smClickToStick').click(function(e) {
 		sm_sticky_toggle(jQuery(this).attr('href'), jQuery(this));
 		e.preventDefault();
@@ -17,10 +20,14 @@ function sm_sticky_toggle(args, obj) {
 			if(results != '') {
 				//alert('Success: '+results);
 				if(results == 'added') {
+					// check sticky box
+					jQuery('#sticky').attr('checked','checked');
 					obj.addClass('isSticky');
 					obj.attr('title', 'Remove Sticky');
 				}
 				if(results == 'removed') {
+					// uncheck sticky box
+					jQuery('#sticky').removeAttr('checked');
 					obj.removeClass('isSticky');
 					obj.attr('title', 'Make Sticky');
 					id = obj.attr('id');

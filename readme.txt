@@ -1,11 +1,11 @@
 === SM Sticky Clicky Star ===
 
-Contributors: Jeremy Smeltzer & Seth Carstens
+Contributors: sethmatics, bigj9901
 Donate link: http://sethmatics.com/extend/plugins/sm-sticky-clicky-star/
 Tags: sticky, post, page, plugin, ajax, admin
 Requires at least: 3.1
 Tested up to: 3.3
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 
 Turn sticky (featured) posts on and off with 1 easy click! Control permissions with "User Role Editor" provided by http://sethmatics.com/.
 
