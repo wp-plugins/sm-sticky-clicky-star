@@ -5,15 +5,19 @@ add_action( 'post_submitbox_misc_actions', 'sm_sticky_meta' );
 
 function sm_sticky_meta() { 
 	global $post;
-	echo '<div id="smSticky" class="misc-pub-section ">Make Sticky: '.get_sm_sticky_link($post->ID).'</div>';
+	if($post->post_type !='page')
+		echo '<div id="smSticky" class="misc-pub-section ">Make Sticky: '.get_sm_sticky_link($post->ID).'</div>';
 }
 
+//add_filter('manage_edit-'.APP_POST_TYPE.'_columns', 'cp_edit_ad_columns');
 
 add_filter('manage_posts_columns', 'sm_add_sticky_column');
+add_filter('manage_edit-'.APP_POST_TYPE.'_columns', 'sm_add_sticky_column');
 function sm_add_sticky_column ($columns) {
     $columns['sticky'] = 'Sticky';
     return $columns;
 }
+
 
 add_action('manage_posts_custom_column',  'sm_sticky_column_content');
 function sm_sticky_column_content($name) {
