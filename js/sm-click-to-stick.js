@@ -1,6 +1,17 @@
 jQuery(document).ready(function() {
 	// move sticky check box out of sticky span and hide it (must be present on page for sticky to stick when post saved)
-	jQuery('#sticky').appendTo('#post-visibility-select').css('display','none');	
+	
+	// if stick checkbox doesn't exist add it
+	if( jQuery('#sticky').length == 0 ) {
+		jQuery('<input id="sticky" name="sticky" type="checkbox" value="sticky" style="display: none;">').appendTo('#post-visibility-select').css('display','none');
+	}
+	// if sticky checkbox does exist move it
+	else {
+		jQuery('#sticky').appendTo('#post-visibility-select').css('display','none');
+	}
+	
+	
+	//	
 	// remove sticky span
 	jQuery('#sticky-span').remove();
 	jQuery('.smClickToStick').click(function(e) {

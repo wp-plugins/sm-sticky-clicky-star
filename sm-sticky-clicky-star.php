@@ -4,7 +4,7 @@ Plugin Name: SM Sticky Clicky Star
 Plugin URI: http://sethmatics.com/extend/plugins/sm-sticky-clicky-star/
 Description: Turn sticky (featured) posts on and off with 1 easy click! Control permissions with "User Role Editor".
 Author: Seth Carstens & Jeremy Smeltzer
-Version: 1.0.4
+Version: 1.0.6
 Author URI: http://sethamtics.com/
 */
 
