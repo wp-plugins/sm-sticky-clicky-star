@@ -3,9 +3,9 @@
 Contributors: sethmatics, bigj9901
 Donate link: http://sethmatics.com/extend/plugins/sm-sticky-clicky-star/
 Tags: sticky, post, page, plugin, ajax, admin
-Requires at least: 3.1
-Tested up to: 3.5.1
-Stable tag: 1.0.6
+Requires at least: 3.9
+Tested up to: 4.0-beta2
+Stable tag: 1.0.7
 
 Turn sticky (featured) posts on and off with 1 easy click! Control permissions with "User Role Editor" provided by http://sethmatics.com/.
 
@@ -13,7 +13,7 @@ Turn sticky (featured) posts on and off with 1 easy click! Control permissions w
 
 Turn sticky (featured) posts on and off with 1 easy click! Control permissions with "User Role Editor" provided by http://sethmatics.com/.
 
-This plugin is probably the simplist of the SM plugins collection. However, its usefulness and timesaving features make it very powerful. Many themes and plugins use the "sticky" option in WordPress either to move a particular post above other posts, or to "feature" posts. An example is that a good deal of themes use "sticky" posts to populate a "featured posts" slider on the homepage of the blog. Quickly turn posts sticky status on and off with 1 click.
+This plugin is probably the most simple from the SM plugins collection. However, its usefulness and time saving features make it very powerful. Many themes and plugins use the "sticky" option in WordPress either to move a particular post above other posts, or to "feature" posts. An example is that a good deal of themes use "sticky" posts to populate a "featured posts" slider on the homepage of the blog. Quickly turn posts sticky status on and off with 1 click.
 
 Features include:
 

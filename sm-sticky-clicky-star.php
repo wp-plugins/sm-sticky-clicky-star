@@ -3,10 +3,20 @@
 Plugin Name: SM Sticky Clicky Star
 Plugin URI: http://sethmatics.com/extend/plugins/sm-sticky-clicky-star/
 Description: Turn sticky (featured) posts on and off with 1 easy click! Control permissions with "User Role Editor".
-Author: Seth Carstens & Jeremy Smeltzer
-Version: 1.0.6
+Author: sethmatics, bigj9901
+Version: 1.0.7
 Author URI: http://sethamtics.com/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sm_sticky_clicky_star
 */
+
+//avoid direct calls to this file, because now WP core and framework has been used
+if ( ! function_exists( 'add_filter' ) ) {
+	header('Status: 403 Forbidden');
+	header('HTTP/1.1 403 Forbidden');
+	exit();
+}
 
 define('sm_sticky_clicky_star_DIR', WP_PLUGIN_DIR.'/sm-sticky-clicky-star/');
 
