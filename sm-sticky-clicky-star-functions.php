@@ -9,10 +9,12 @@ function sm_sticky_meta() {
 		echo '<div id="smSticky" class="misc-pub-section ">Make Sticky: '.get_sm_sticky_link($post->ID).'</div>';
 }
 
-//add_filter('manage_edit-'.APP_POST_TYPE.'_columns', 'cp_edit_ad_columns');
-
 add_filter('manage_posts_columns', 'sm_add_sticky_column');
-add_filter('manage_edit-'.APP_POST_TYPE.'_columns', 'sm_add_sticky_column');
+//adds sticky star to appthemes themes
+if(defined('APP_POST_TYPE')){
+	add_filter('manage_edit-'.APP_POST_TYPE.'_columns', 'sm_add_sticky_column');
+}
+
 function sm_add_sticky_column ($columns) {
     $columns['sticky'] = 'Sticky';
     return $columns;
