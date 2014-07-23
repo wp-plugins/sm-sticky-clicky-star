@@ -4,7 +4,7 @@
  * Plugin URI: http://sethmatics.com/extend/plugins/sm-sticky-clicky-star/
  * Description: Turn sticky (featured) posts on and off with 1 easy click! Control permissions with "User Role Editor".
  * Author: sethmatics, bigj9901
- * Version: 1.0.7
+ * Version: 1.1.0
  * Author URI: http://sethamtics.com/
  * License: GNU General Public License v2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
