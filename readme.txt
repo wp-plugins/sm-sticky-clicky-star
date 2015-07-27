@@ -1,6 +1,6 @@
 === SM Sticky Clicky Star ===
 
-Contributors: sethmatics, bigj9901
+Contributors: sethcarstens
 Donate link: http://sethmatics.com/extend/plugins/sm-sticky-clicky-star/
 Tags: sticky, post, page, plugin, ajax, admin
 Requires at least: 3.9
