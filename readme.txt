@@ -4,8 +4,8 @@ Contributors: sethcarstens
 Donate link: http://sethmatics.com/extend/plugins/sm-sticky-clicky-star/
 Tags: sticky, post, page, plugin, ajax, admin
 Requires at least: 3.9
-Tested up to: 4.0-beta2
-Stable tag: 1.1.0
+Tested up to: 4.3
+Stable tag: 1.1.1
 
 Turn sticky (featured) posts on and off with 1 easy click! Control permissions with "User Role Editor" provided by http://sethmatics.com/.
 
