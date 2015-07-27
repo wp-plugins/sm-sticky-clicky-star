@@ -33,6 +33,10 @@ To install the plugin manually:
 5. Use the Sticky Clicky Stars to turn on and off the sticky attribute of the post.
 
 == Changelog ==
+Version 1.1.1
+- Checked working status with WordPress 4.2
+- Updated documentation and initialized plugin using git-svn
+
 Version 1.1.0
 
 - Corrected issue where style and javascript were loaded on all admin pages
