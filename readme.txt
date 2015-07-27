@@ -36,6 +36,7 @@ To install the plugin manually:
 Version 1.1.1
 - Checked working status with WordPress 4.2
 - Updated documentation and initialized plugin using git-svn
+- Testing git-svn revision 2
 
 Version 1.1.0
 
